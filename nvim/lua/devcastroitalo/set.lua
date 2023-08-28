@@ -1,5 +1,7 @@
 vim.opt.guicursor = ""
 
+vim.g.editorconfig = true
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -7,6 +9,7 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
+vim.cmd('filetype plugin indent on')
 
 vim.opt.smartindent = true
 
@@ -29,5 +32,4 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 vim.cmd('set cursorline')
-
 vim.cmd("filetype plugin on")
