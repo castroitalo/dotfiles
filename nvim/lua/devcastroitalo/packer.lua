@@ -35,6 +35,7 @@ return require('packer').startup(function(use)
     -- Indent Blanklike
     use {"lukas-reineke/indent-blankline.nvim"}
 
+    -- LSP
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v2.x',

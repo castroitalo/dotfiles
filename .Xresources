@@ -11,3 +11,4 @@ XTerm*scrollTtyOutput: false
 
 xterm*allowTitleOps: false
 xterm*Title: XTerm
+
