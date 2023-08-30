@@ -111,6 +111,7 @@ alias open="nautilus"
 alias vim="nvim"
 alias load_xterm="xrdb -load .Xresources"
 alias play="vlc"
+alias emacs="emacs &"
 
 # Disable caps lock
 setxkbmap -option ctrl:nocaps
