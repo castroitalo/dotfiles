@@ -108,9 +108,7 @@ alias update="sudo apt update && sudo apt upgrade -y"
 alias fix_broken="sudo apt --fix-broken install -y"
 alias clean="sudo apt clean && sudo apt auto-remove -y"
 alias open="nautilus"
-alias load_xterm="xrdb -load .Xresources"
 alias play="vlc"
-alias emacs="emacs &"
 
 # Disable caps lock
 setxkbmap -option ctrl:nocaps
