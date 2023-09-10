@@ -109,6 +109,7 @@ alias fix_broken="sudo apt --fix-broken install -y"
 alias clean="sudo apt clean && sudo apt auto-remove -y"
 alias open="nautilus"
 alias play="vlc"
+alias pgt="cat ~/programathor.txt"
 
 # Disable caps lock
 setxkbmap -option ctrl:nocaps
