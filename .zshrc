@@ -111,9 +111,6 @@ alias open="nautilus"
 alias play="vlc"
 alias delete="sudo rm -rf"
 
-# Disable caps lock
-setxkbmap -option ctrl:nocaps
-
 # tmux aliases
 alias tnew="tmux new -s"
 alias tls="tmux ls"
