@@ -5,8 +5,8 @@
             "color": "#ffe600"
         }
     ],
-    "editor.fontFamily": "FiraCode Nerd Font",
-    "editor.fontSize": 13,
+    "editor.fontFamily": "Menlo",
+    "editor.fontWeight": "700",
     "editor.cursorStyle": "block",
     "editor.fontLigatures": false,
     "editor.detectIndentation": false,
