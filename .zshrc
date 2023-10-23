@@ -107,7 +107,7 @@ bindkey '^ ' autosuggest-accept
 alias update="sudo apt update && sudo apt upgrade -y"
 alias fix_broken="sudo apt --fix-broken install -y"
 alias clean="sudo apt clean && sudo apt auto-remove -y"
-alias open="nautilus"
+alias open="nautilus &"
 alias play="vlc"
 alias delete="sudo rm -rf"
 
