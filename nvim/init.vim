@@ -19,6 +19,7 @@ call plug#end()
 " Basic settings 
 syntax on 
 set nu 
+set cursorline
 set relativenumber
 set tabstop=4
 set softtabstop=4
