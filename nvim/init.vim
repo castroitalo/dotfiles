@@ -43,6 +43,7 @@ set nowrap
 filetype on
 filetype plugin on
 filetype indent on
+set guicursor=n-v-c-i:block
 
 " Theme
 set background=dark
