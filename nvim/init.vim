@@ -6,7 +6,6 @@ call plug#begin()
     Plug 'vim-airline/vim-airline-themes'
     Plug 'sheerun/vim-polyglot'
     Plug 'jiangmiao/auto-pairs'
-    Plug 'preservim/nerdtree'
     Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
     Plug 'honza/vim-snippets'
     Plug 'mattn/emmet-vim'
@@ -20,6 +19,7 @@ call plug#end()
 syntax on 
 set nu 
 set cursorline
+set clipboard=unnamedplus
 set relativenumber
 set tabstop=4
 set softtabstop=4
@@ -84,9 +84,6 @@ nnoremap <C-K> <C-w>k
 
 " Airline
 let g:airline_theme = 'moonfly'
-
-" NERDTree
-nmap <C-a> :NERDTreeToggle<CR>
 
 " Telescope
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
