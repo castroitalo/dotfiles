@@ -2,6 +2,8 @@
     "editor.rulers": [
         80
     ],
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontWeight": "500",
     "editor.cursorStyle": "block",
     "editor.fontLigatures": false,
     "editor.detectIndentation": false,
