@@ -2,15 +2,15 @@
     "editor.rulers": [
         80
     ],
-    "editor.fontFamily": "FiraCode Nerd Font",
-    "editor.fontWeight": "500",
-    "editor.cursorStyle": "block",
+    "editor.fontFamily": "Iosevka Medium Extended",
+    "editor.fontSize": 15,
     "editor.fontLigatures": false,
+    "editor.cursorStyle": "block",
     "editor.detectIndentation": false,
     "editor.lineNumbers": "relative",
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
-    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.enabled": false,
     "editor.renderLineHighlight": "line",
     "files.encoding": "utf8",
     "window.title": "${appName}",
@@ -19,6 +19,10 @@
     "breadcrumbs.filePath": "last",
     "extensions.ignoreRecommendations": true,
     "workbench.layoutControl.enabled": false,
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000",
+        "editorCursor.foreground": "#ffffff"
+    },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
