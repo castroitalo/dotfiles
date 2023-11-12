@@ -1,9 +1,11 @@
 {
     "editor.rulers": [
-        80
+        {
+            "color": "#f4f501",
+            "column": 80
+        }
     ],
-    "editor.fontFamily": "FiraCode Nerd Font",
-    "editor.fontWeight": "500",
+    "editor.fontFamily": "Monaco",
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
     "editor.detectIndentation": false,
@@ -21,7 +23,7 @@
     "workbench.layoutControl.enabled": false,
     "workbench.colorCustomizations": {
         "editorCursor.background": "#000000",
-        "editorCursor.foreground": "#ffffff"
+        "editorCursor.foreground": "#00ff41"
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
