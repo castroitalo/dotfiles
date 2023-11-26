@@ -109,7 +109,6 @@ alias fix_broken="sudo apt --fix-broken install -y"
 alias clean="sudo apt clean && sudo apt auto-remove -y"
 alias play="vlc"
 alias this="neofetch"
-alias code="codium"
 
 # Disable caps lock
 setxkbmap -option ctrl:nocaps
