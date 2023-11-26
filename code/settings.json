@@ -1,9 +1,6 @@
 {
     "editor.rulers": [
-        {
-            "color": "#f4f501",
-            "column": 80
-        }
+        80
     ],
     "editor.fontFamily": "Monaco",
     "editor.fontLigatures": false,
@@ -23,7 +20,9 @@
     "workbench.layoutControl.enabled": false,
     "workbench.colorCustomizations": {
         "editorCursor.background": "#000000",
-        "editorCursor.foreground": "#00ff41"
+        "editorCursor.foreground": "#f4f501",
+        "statusBar.foreground": "#ffffff",
+        "activityBar.border": "#222222"
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -138,6 +137,6 @@
                 "v"
             ]
         }
-    ]
+    ],
 }
 
