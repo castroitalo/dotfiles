@@ -26,9 +26,6 @@ return require('packer').startup(function(use)
         config = function() require('nvim-autopairs').setup {} end
     }
 
-    -- Blankline
-    use('lukas-reineke/indent-blankline.nvim')
-
 	-- LSP
 	use {
 		'VonHeikemen/lsp-zero.nvim',
