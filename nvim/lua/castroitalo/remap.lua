@@ -1,8 +1,8 @@
 -- Remaps
-vim.g.mapleader = " "
+vim.g.mapleader = ' '
 
 --     - General remap
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 vim.api.nvim_set_keymap('n', '<leader>pv', ':Ex<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('v', '<M-k>', ':m \'<-2<CR>gv=gv<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('v', '<M-j>', ':m \'>+1<CR>gv=gv<CR>', { noremap = true, silent = true })

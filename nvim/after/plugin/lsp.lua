@@ -2,7 +2,7 @@ local lsp = require('lsp-zero')
 
 lsp.preset('recommended')
 
--- Language servers (installation and setup)
+-- Language server installation
 require('mason').setup({})
 require('mason-lspconfig').setup({
 	ensure_installed = {
@@ -16,6 +16,7 @@ require('mason-lspconfig').setup({
 	}
 })
 
+-- Language server setup
 lsp.setup_servers({
     'clangd',
     'docker_compose_language_service',

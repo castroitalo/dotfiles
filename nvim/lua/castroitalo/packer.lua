@@ -22,8 +22,8 @@ return require('packer').startup(function(use)
 
     -- Autopairs
     use {
-        "windwp/nvim-autopairs",
-        config = function() require("nvim-autopairs").setup {} end
+        'windwp/nvim-autopairs',
+        config = function() require('nvim-autopairs').setup {} end
     }
 
 	-- LSP

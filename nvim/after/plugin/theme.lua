@@ -1,5 +1,5 @@
 function setUpTheme(color)
-	color = color or "rose-pine"
+	color = color or 'rose-pine'
 	vim.cmd.colorscheme(color)
 end
 
