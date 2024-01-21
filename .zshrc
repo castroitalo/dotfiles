@@ -100,6 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Disable caps lock
+setxkbmap -option ctrl:nocaps
+
 # zsh-autosuggestions settings
 bindkey '^ ' autosuggest-accept
 
@@ -107,7 +110,6 @@ bindkey '^ ' autosuggest-accept
 alias update="sudo apt update && sudo apt upgrade -y"
 alias fix_broken="sudo apt --fix-broken install -y"
 alias clean="sudo apt clean && sudo apt auto-remove -y"
-alias play="vlc"
 alias this="neofetch"
 
 # tmux aliases
@@ -118,3 +120,7 @@ alias tatt="tmux attach-session -t"
 
 # Docker aliases
 alias docker="sudo docker"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

@@ -3,9 +3,8 @@
         80,
         120
     ],
-    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontFamily": "Consolas",
     "editor.fontSize": 14,
-    "editor.lineHeight": 1.8,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
     "editor.detectIndentation": false,
@@ -24,13 +23,6 @@
     "extensions.ignoreRecommendations": true,
     "workbench.tree.indent": 15,
     "workbench.layoutControl.enabled": false,
-    "workbench.colorCustomizations": {
-        "activityBar.border": "#424242",
-        "statusBar.border": "#424242",
-        "editor.lineHighlightBackground": "#424242",
-        "editor.lineHighlightBorder": "#424242",
-        "sideBar.border": "#424242"
-    },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -144,5 +136,5 @@
                 "v"
             ]
         }
-    ],	
+    ],
 }
