@@ -100,9 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Disable caps lock
-setxkbmap -option ctrl:nocaps
-
 # zsh-autosuggestions settings
 bindkey '^ ' autosuggest-accept
 

@@ -3,17 +3,17 @@
         80,
         120
     ],
-    "editor.fontFamily": "Ubuntu Mono",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 20,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.8,
     "editor.fontLigatures": false,
-    "editor.cursorStyle": "block",
+    "editor.cursorStyle": "line",
     "editor.detectIndentation": false,
     "editor.lineNumbers": "relative",
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
-    "editor.bracketPairColorization.enabled": false,
-    "editor.renderLineHighlight": "none",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.renderLineHighlight": "all",
     "editor.semanticHighlighting.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
@@ -27,10 +27,9 @@
     "workbench.tree.indent": 15,
     "workbench.layoutControl.enabled": false,
     "workbench.colorCustomizations": {
-        "statusBar.foreground": "#ffffff",
-        "activityBar.border": "#222222",
-        "editorLineNumber.foreground": "#f2e971",
-        "editorLineNumber.activeForeground": "#f2e971"
+        "activityBar.border": "#434343",
+        "statusBar.border": "#434343",
+        "sideBar.border": "#434343"
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
