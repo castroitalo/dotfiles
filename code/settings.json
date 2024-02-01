@@ -3,11 +3,11 @@
         80,
         120
     ],
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 13,
-    "editor.lineHeight": 1.8,
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 24,
     "editor.fontLigatures": false,
-    "editor.cursorStyle": "line",
+    "editor.cursorStyle": "block",
     "editor.detectIndentation": false,
     "editor.lineNumbers": "relative",
     "editor.minimap.showSlider": "always",
@@ -18,18 +18,17 @@
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "editor.formatOnSave": true,
-    "files.encoding": "utf8",
     "window.title": "${appName}",
     "explorer.compactFolders": false,
     "breadcrumbs.enabled": false,
     "extensions.ignoreRecommendations": true,
-    "workbench.activityBar.location": "hidden",
-    "workbench.tree.indent": 15,
-    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "side",
+    "workbench.tree.indent": 20,
     "workbench.colorCustomizations": {
-        "activityBar.border": "#434343",
-        "statusBar.border": "#434343",
-        "sideBar.border": "#434343"
+        "editorCursor.background": "#000000",
+        "editorCursor.foreground": "#ffffff",
+        "editorLineNumber.foreground": "#ffdd35",
+        "editorLineNumber.activeForeground": "#ffdd35"
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
