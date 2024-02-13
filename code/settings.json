@@ -1,34 +1,36 @@
 {
     "editor.rulers": [
-        80,
-        120
+        {
+            "color": "#ffca28",
+            "column": 80
+        },
+        {
+            "color": "#ff0000",
+            "column": 120
+        }
     ],
-    "editor.fontFamily": "Consolas",
-    "editor.fontSize": 15,
-    "editor.lineHeight": 24,
+    "editor.fontFamily": "Ubuntu Mono",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 20,
     "editor.fontLigatures": false,
-    "editor.cursorStyle": "block",
-    "editor.detectIndentation": false,
+    "editor.cursorStyle": "line",
     "editor.lineNumbers": "relative",
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.renderLineHighlight": "all",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.renderLineHighlight": "gutter",
     "editor.semanticHighlighting.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
-    "editor.formatOnSave": true,
     "window.title": "${appName}",
     "explorer.compactFolders": false,
     "breadcrumbs.enabled": false,
     "extensions.ignoreRecommendations": true,
-    "workbench.activityBar.location": "side",
     "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
     "workbench.colorCustomizations": {
-        "editorCursor.background": "#000000",
-        "editorCursor.foreground": "#ffffff",
-        "editorLineNumber.foreground": "#ffdd35",
-        "editorLineNumber.activeForeground": "#ffdd35"
+        "editor.lineHighlightBackground": "#0078d4",
+        "editor.lineHighlightBorder": "#0078d4"
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
