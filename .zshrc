@@ -104,9 +104,7 @@ source $ZSH/oh-my-zsh.sh
 bindkey '^ ' autosuggest-accept
 
 # General aliases
-alias update="sudo apt update && sudo apt upgrade -y"
-alias fix_broken="sudo apt --fix-broken install -y"
-alias clean="sudo apt clean && sudo apt auto-remove -y"
+alias update="sudo apt --fix-broken install && sudo apt clean && sudo apt auto-remove -y &&sudo apt update && sudo apt upgrade -y"
 alias this="neofetch"
 
 # tmux aliases
