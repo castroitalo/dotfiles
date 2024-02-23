@@ -1,0 +1,11 @@
+{
+	"dump_formatted_data": {
+		"prefix": "pred",
+		"body": [
+			"echo \"<pre>\";",
+			"var_dump($1);",
+			"echo \"</pre>\";"
+		],
+		"description": "Dump formatted output with var_dump function"
+	}
+}
