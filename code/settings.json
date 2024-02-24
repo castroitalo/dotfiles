@@ -1,32 +1,41 @@
 {
     "editor.rulers": [
-        80, 120
+        {
+            "color": "#424242",
+            "column": 80
+        },
+        {
+            "color": "#424242",
+            "column": 120
+        }
     ],
     "editor.fontFamily": "Monaco",
     "editor.fontSize": 14,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
     "editor.lineNumbers": "relative",
-    "editor.minimap.showSlider": "always",
-    "editor.minimap.renderCharacters": false,
-    "editor.bracketPairColorization.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
     "editor.renderLineHighlight": "all",
     "editor.semanticHighlighting.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "editor.stickyScroll.enabled": false,
-    "editor.stickyScroll.scrollWithEditor": false,
-    "editor.hover.sticky": false,
     "window.title": "${appName}",
     "explorer.compactFolders": false,
     "breadcrumbs.enabled": false,
     "extensions.ignoreRecommendations": true,
     "workbench.tree.indent": 20,
-    "workbench.tree.enableStickyScroll": false,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.colorCustomizations": {
         "editorCursor.background": "#000000",
-        "editorCursor.foreground": "#ffffff"
+        "editorCursor.foreground": "#ffffff",
+        "editor.lineHighlightBackground": "#1a1a1a",
+        "editor.lineHighlightBorder": "#1a1a1a",
+        "statusBar.foreground": "#424242",
+        "statusBar.border": "#424242",
+        "activityBar.border": "#424242",
+        "sideBar.border": "#424242"
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -149,5 +158,5 @@
     "[scss]": {
         "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
     },
-    "workbench.colorTheme": "Sublime Monokai"
+    "workbench.colorTheme": "Min Dark"
 }
