@@ -106,6 +106,7 @@ bindkey '^ ' autosuggest-accept
 # General aliases
 alias update="sudo apt --fix-broken install && sudo apt clean && sudo apt auto-remove -y &&sudo apt update && sudo apt upgrade -y"
 alias this="neofetch"
+alias shutdown="sudo shutdown now"
 
 # tmux aliases
 alias tnew="tmux new -s"
@@ -115,6 +116,9 @@ alias tatt="tmux attach-session -t"
 
 # Docker aliases
 alias docker="sudo docker"
+
+# Git aliases
+alias plog="git log --pretty=format:\"%h - %an, %ar : %s\""
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
