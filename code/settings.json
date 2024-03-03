@@ -9,8 +9,8 @@
             "column": 120
         }
     ],
-    "editor.fontFamily": "Monaco",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "JetBrains Mono SemiBold",
+    "editor.fontSize": 15,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
     "editor.lineNumbers": "relative",
@@ -158,5 +158,8 @@
     "[scss]": {
         "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
     },
-    "workbench.colorTheme": "Min Dark"
+    "workbench.colorTheme": "Min Dark",
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.hover.sticky": false
 }
