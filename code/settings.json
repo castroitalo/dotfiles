@@ -1,0 +1,148 @@
+{
+    "editor.rulers": [
+        80, 120
+    ],
+    "editor.fontFamily": "JetBrains Mono SemiBold",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": false,
+    "editor.cursorStyle": "block",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.renderLineHighlight": "all",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.stickyScroll.enabled": false,
+    "window.title": "${appName}",
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<S-l>"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<S-h>"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.splitEditorDown"
+            ]
+        },
+        {
+            "before": [
+                "<c-d>"
+            ],
+            "after": [
+                "<c-d>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<c-u>"
+            ],
+            "after": [
+                "<c-u>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "after": [
+                "<C-w>",
+                "h"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<C-w>",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "<C-w>",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<C-w>",
+                "l"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "after": [
+                ">",
+                "g",
+                "v"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "after": [
+                "<",
+                "g",
+                "v"
+            ]
+        }
+    ],
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.hover.sticky": false,
+    "workbench.colorTheme": "Sublime Monokai"
+}
