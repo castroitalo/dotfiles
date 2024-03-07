@@ -2,7 +2,7 @@
     "editor.rulers": [
         80, 120
     ],
-    "editor.fontFamily": "JetBrains Mono SemiBold",
+    "editor.fontFamily": "SF Mono",
     "editor.fontSize": 15,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
