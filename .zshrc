@@ -106,7 +106,7 @@ bindkey '^ ' autosuggest-accept
 # General aliases
 alias update="sudo apt --fix-broken install && sudo apt clean && sudo apt auto-remove -y &&sudo apt update && sudo apt upgrade -y"
 alias this="neofetch"
-alias shutdown="sudo shutdown now"
+alias clear_ss="rm -rf ~/Pictures/Screenshots/*"
 
 # tmux aliases
 alias tnew="tmux new -s"
