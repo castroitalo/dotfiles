@@ -107,6 +107,7 @@ bindkey '^ ' autosuggest-accept
 alias update="sudo apt --fix-broken install && sudo apt clean && sudo apt auto-remove -y &&sudo apt update && sudo apt upgrade -y"
 alias this="neofetch"
 alias clear_ss="rm -rf ~/Pictures/Screenshots/*"
+alias tor="./opt/tor-browser/start-top-browser.desktop"
 
 # tmux aliases
 alias tnew="tmux new -s"

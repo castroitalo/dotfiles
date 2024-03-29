@@ -1,25 +1,42 @@
 {
     "editor.rulers": [
-        80, 120
+        {
+            "column": 80,
+            "color": "#ffd900"
+        },
+        {
+            "column": 120,
+            "color": "#ff0000"
+        }
     ],
-    "editor.fontFamily": "SF Mono",
-    "editor.fontSize": 15,
+    "editor.fontFamily": "CodeNewRoman Nerd Font Mono",
+    "editor.fontSize": 16,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
     "editor.lineNumbers": "relative",
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
     "editor.bracketPairColorization.enabled": true,
     "editor.renderLineHighlight": "all",
     "editor.semanticHighlighting.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "editor.stickyScroll.enabled": false,
-    "window.title": "${appName}",
-    "explorer.compactFolders": false,
-    "breadcrumbs.enabled": false,
-    "extensions.ignoreRecommendations": true,
+    "editor.hover.sticky": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.renderWhitespace": "boundary",
     "workbench.tree.indent": 20,
     "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.enableStickyScroll": false,
+    "files.associations": { "*.module": "php" },
+    "extensions.ignoreRecommendations": true,
+    "breadcrumbs.enabled": false,
+    "explorer.compactFolders": false,
+    "window.title": "${appName}",
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -134,15 +151,5 @@
             ]
         }
     ],
-    "workbench.startupEditor": "none",
-    "window.menuBarVisibility": "toggle",
-    "workbench.iconTheme": "material-icon-theme",
-    "explorer.confirmDelete": false,
-    "[scss]": {
-        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-    },
-    "editor.stickyScroll.scrollWithEditor": false,
-    "workbench.tree.enableStickyScroll": false,
-    "editor.hover.sticky": false,
-    "workbench.colorTheme": "Sublime Monokai"
+    "explorer.confirmDelete": false
 }
