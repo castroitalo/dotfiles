@@ -26,9 +26,6 @@
     "editor.hover.sticky": false,
     "editor.stickyScroll.scrollWithEditor": false,
     "editor.renderWhitespace": "boundary",
-    "workbench.tree.indent": 20,
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.tree.enableStickyScroll": false,
     "files.associations": { "*.module": "php" },
     "extensions.ignoreRecommendations": true,
     "breadcrumbs.enabled": false,
@@ -36,7 +33,11 @@
     "window.title": "${appName}",
     "window.menuBarVisibility": "toggle",
     "workbench.startupEditor": "none",
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.enableStickyScroll": false,
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
     "workbench.colorCustomizations": {
         "activityBar.border": "#3e3d32",
         "statusBar.border": "#3e3d32",
@@ -156,5 +157,5 @@
             ]
         }
     ],
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
 }
