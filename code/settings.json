@@ -9,7 +9,7 @@
             "color": "#ff0000"
         }
     ],
-    "editor.fontFamily": "CodeNewRoman Nerd Font Mono",
+    "editor.fontFamily": "Consolas",
     "editor.fontSize": 16,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
@@ -37,6 +37,11 @@
     "window.menuBarVisibility": "toggle",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "activityBar.border": "#3e3d32",
+        "statusBar.border": "#3e3d32",
+        "tab.activeBorder": "#0078d4"
+    },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
