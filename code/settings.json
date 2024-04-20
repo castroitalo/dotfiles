@@ -10,7 +10,7 @@
         }
     ],
     "editor.fontFamily": "Consolas",
-    "editor.fontSize": 16,
+    "editor.fontSize": 17,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
     "editor.lineNumbers": "relative",
@@ -26,9 +26,6 @@
     "editor.hover.sticky": false,
     "editor.stickyScroll.scrollWithEditor": false,
     "editor.renderWhitespace": "boundary",
-    "workbench.tree.indent": 20,
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.tree.enableStickyScroll": false,
     "files.associations": { "*.module": "php" },
     "extensions.ignoreRecommendations": true,
     "breadcrumbs.enabled": false,
@@ -36,11 +33,19 @@
     "window.title": "${appName}",
     "window.menuBarVisibility": "toggle",
     "workbench.startupEditor": "none",
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.enableStickyScroll": false,
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
     "workbench.colorCustomizations": {
         "activityBar.border": "#3e3d32",
         "statusBar.border": "#3e3d32",
-        "tab.activeBorder": "#0078d4"
+        "tab.activeBorder": "#0078d4",
+        "editorCursor.background": "#000000",
+        "editorCursor.foreground": "#ffffff",
+        "editorLineNumber.foreground": "#ffd900",
+        "editorLineNumber.activeForeground": "#ffffff"
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -156,5 +161,6 @@
             ]
         }
     ],
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Black",
 }
