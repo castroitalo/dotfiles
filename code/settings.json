@@ -162,9 +162,5 @@
         }
     ],
     "explorer.confirmDelete": false,
-<<<<<<< HEAD
-    "workbench.colorTheme": "Black",
+    "workbench.colorTheme": "Black"
 }
-=======
-}
->>>>>>> origin/main
