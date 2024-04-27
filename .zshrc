@@ -123,6 +123,9 @@ alias lpretty="git log --pretty=format:\"%h - %an, %ar : %s\""
 alias lgraph="git log --pretty=format:\"%h %s\" --graph"
 alias gomain="git checkout main"
 
+alias etcher="/home/castroitalo/Documents/AppImages/etcher.AppImage &"
+alias etcher="/home/castroitalo/Documents/AppImages/keepass.AppImage &"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
