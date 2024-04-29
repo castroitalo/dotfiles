@@ -117,11 +117,11 @@ alias tatt="tmux attach-session -t"
 
 # Docker aliases
 alias docker="sudo docker"
+alias docker_restart="docker compose stop && docker compose up -d"
 
 # Git aliases
 alias lpretty="git log --pretty=format:\"%h - %an, %ar : %s\""
 alias lgraph="git log --pretty=format:\"%h %s\" --graph"
-alias gomain="git checkout main"
 
 alias etcher="/home/castroitalo/Documents/AppImages/etcher.AppImage &"
 alias etcher="/home/castroitalo/Documents/AppImages/keepass.AppImage &"
