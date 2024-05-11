@@ -105,9 +105,6 @@ bindkey '^ ' autosuggest-accept
 
 # General aliases
 alias update="sudo apt --fix-broken install && sudo apt clean && sudo apt auto-remove -y &&sudo apt update && sudo apt upgrade -y"
-alias this="neofetch"
-alias clear_ss="rm -rf ~/Pictures/Screenshots/*"
-alias tor="./opt/tor-browser/start-top-browser.desktop"
 
 # tmux aliases
 alias tnew="tmux new -s"
@@ -123,8 +120,8 @@ alias docker_restart="docker compose stop && docker compose up -d"
 alias lpretty="git log --pretty=format:\"%h - %an, %ar : %s\""
 alias lgraph="git log --pretty=format:\"%h %s\" --graph"
 
-alias etcher="/home/castroitalo/Documents/AppImages/etcher.AppImage &"
-alias etcher="/home/castroitalo/Documents/AppImages/keepass.AppImage &"
+# AppImages
+alias keepass="/home/castroitalo/Documents/AppImages/keepass.AppImage &"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
