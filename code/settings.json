@@ -9,7 +9,6 @@
             "color": "#ff0000"
         }
     ],
-    "editor.fontFamily": "CodeNewRoman Nerd Font",
     "editor.fontSize": 15,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
@@ -17,7 +16,7 @@
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
-    "editor.bracketPairColorization.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
     "editor.renderLineHighlight": "all",
     "editor.semanticHighlighting.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
@@ -37,6 +36,12 @@
     "workbench.tree.renderIndentGuides": "always",
     "workbench.tree.enableStickyScroll": false,
     "workbench.sideBar.location": "right",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000",
+        "editorCursor.foreground": "#ffffff",
+        "editorLineNumber.foreground": "#ffd900",
+        "editorLineNumber.activeForeground": "#ffffff"
+    },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -155,5 +160,6 @@
     "[scss]": {
         "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
     },
-    "update.showReleaseNotes": false
+    "update.showReleaseNotes": false,
+    "workbench.iconTheme": "material-icon-theme"
 }
