@@ -84,10 +84,10 @@ _G.packer_plugins = {
     path = "/home/castroitalo/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["kanagawa.nvim"] = {
+  gruvbox = {
     loaded = true,
-    path = "/home/castroitalo/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
-    url = "https://github.com/rebelot/kanagawa.nvim"
+    path = "/home/castroitalo/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,

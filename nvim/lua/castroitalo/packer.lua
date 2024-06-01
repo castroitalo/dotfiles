@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
   }
 
   -- Theme
-  use 'rebelot/kanagawa.nvim'
+  use 'morhetz/gruvbox'
 
   -- Treesitter
   use('nvim-treesitter/nvim-treesitter', {run= ':TSUpdate'})
