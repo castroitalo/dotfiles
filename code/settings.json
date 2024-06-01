@@ -2,13 +2,13 @@
     "editor.rulers": [
         {
             "column": 80,
-            "color": "#ffd900"
         },
         {
             "column": 120,
             "color": "#ff0000"
         }
     ],
+    "editor.fontFamily": "FiraMono Nerd Font Medium",
     "editor.fontSize": 15,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
@@ -25,7 +25,14 @@
     "editor.hover.sticky": false,
     "editor.stickyScroll.scrollWithEditor": false,
     "editor.renderWhitespace": "boundary",
-    "files.associations": { "*.module": "php" },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.fixAll": "always"
+    },
+    "files.associations": {
+        "*.module": "php"
+    },
     "extensions.ignoreRecommendations": true,
     "breadcrumbs.enabled": false,
     "explorer.compactFolders": false,
@@ -36,12 +43,6 @@
     "workbench.tree.renderIndentGuides": "always",
     "workbench.tree.enableStickyScroll": false,
     "workbench.sideBar.location": "right",
-    "workbench.colorCustomizations": {
-        "editorCursor.background": "#000000",
-        "editorCursor.foreground": "#ffffff",
-        "editorLineNumber.foreground": "#ffd900",
-        "editorLineNumber.activeForeground": "#ffffff"
-    },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [

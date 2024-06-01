@@ -105,6 +105,7 @@ bindkey '^ ' autosuggest-accept
 
 # General aliases
 alias update="sudo apt --fix-broken install && sudo apt clean && sudo apt auto-remove -y &&sudo apt update && sudo apt upgrade -y"
+alias open="thunar"
 
 # tmux aliases
 alias tnew="tmux new -s"
@@ -114,15 +115,9 @@ alias tatt="tmux attach-session -t"
 
 # Docker aliases
 alias docker="sudo docker"
-alias docker_restart="docker compose stop && docker compose up -d"
-
-# Git aliases
-alias lpretty="git log --pretty=format:\"%h - %an, %ar : %s\""
-alias lgraph="git log --pretty=format:\"%h %s\" --graph"
 
 # AppImages
 alias keepass="/home/castroitalo/Documents/AppImages/keepass.AppImage &"
-alias nvim="/home/castroitalo/Documents/AppImages/nvim.appimage"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
