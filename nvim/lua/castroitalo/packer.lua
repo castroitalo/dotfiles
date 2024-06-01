@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
   }
 
   -- Theme
-  use 'morhetz/gruvbox'
+  use 'bluz71/vim-moonfly-colors'
 
   -- Treesitter
   use('nvim-treesitter/nvim-treesitter', {run= ':TSUpdate'})

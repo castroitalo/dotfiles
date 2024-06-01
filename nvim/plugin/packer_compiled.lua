@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/home/castroitalo/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  gruvbox = {
-    loaded = true,
-    path = "/home/castroitalo/.local/share/nvim/site/pack/packer/start/gruvbox",
-    url = "https://github.com/morhetz/gruvbox"
-  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/castroitalo/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -139,6 +134,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/castroitalo/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-moonfly-colors"] = {
+    loaded = true,
+    path = "/home/castroitalo/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
+    url = "https://github.com/bluz71/vim-moonfly-colors"
   }
 }
 
