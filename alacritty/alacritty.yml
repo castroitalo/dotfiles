@@ -10,7 +10,7 @@ decorations_theme_variant: Dark
 # Font settings
 font:
   normal:
-    family: "FiraMono Nerd font"
+    family: "JetBrains Mono Medium"
     style: "Regular"
   bold:
     family: "FiraMono Nerd font"

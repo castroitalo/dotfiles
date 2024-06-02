@@ -118,6 +118,7 @@ alias docker="sudo docker"
 
 # AppImages
 alias keepass="/home/castroitalo/Documents/AppImages/keepass.AppImage &"
+alias nvim="/home/castroitalo/Documents/AppImages/nvim.appimage"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
