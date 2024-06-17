@@ -1,0 +1,167 @@
+{
+    "editor.rulers": [
+        {
+            "column": 80,
+        },
+        {
+            "column": 120,
+            "color": "#ff0000"
+        }
+    ],
+    "editor.fontFamily": "SauceCodePro Nerd Font",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": false,
+    "editor.cursorStyle": "line",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.renderLineHighlight": "all",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.stickyScroll.enabled": false,
+    "editor.hover.sticky": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.fixAll": "always"
+    },
+    "files.associations": {
+        "*.module": "php"
+    },
+    "extensions.ignoreRecommendations": true,
+    "breadcrumbs.enabled": false,
+    "explorer.compactFolders": false,
+    "window.title": "${appName}",
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.sideBar.location": "right",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<S-l>"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<S-h>"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.splitEditorDown"
+            ]
+        },
+        {
+            "before": [
+                "<c-d>"
+            ],
+            "after": [
+                "<c-d>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<c-u>"
+            ],
+            "after": [
+                "<c-u>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "after": [
+                "<C-w>",
+                "h"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<C-w>",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "<C-w>",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<C-w>",
+                "l"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "after": [
+                ">",
+                "g",
+                "v"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "after": [
+                "<",
+                "g",
+                "v"
+            ]
+        }
+    ],
+    "explorer.confirmDelete": false,
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "update.showReleaseNotes": false,
+    "workbench.iconTheme": "material-icon-theme"
+}
