@@ -7,25 +7,25 @@
             "column": 120
         }
     ],
-    "editor.fontFamily": "SauceCodePro Nerd Font",
+    "editor.fontFamily": "Consolas",
     "editor.fontSize": 15,
-    "editor.fontWeight": "500",
     "editor.fontLigatures": false,
     "editor.cursorStyle": "line",
     "editor.lineNumbers": "relative",
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
-    "editor.bracketPairColorization.enabled": true,
-    "editor.renderLineHighlight": "all",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.renderLineHighlight": "none",
     "editor.semanticHighlighting.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "editor.stickyScroll.enabled": false,
     "editor.hover.sticky": false,
     "editor.stickyScroll.scrollWithEditor": false,
-    "editor.renderWhitespace": "boundary",
+    "editor.renderWhitespace": "none",
     "editor.formatOnSave": true,
+    "editor.smoothScrolling": false,
     "editor.codeActionsOnSave": {
         "source.organizeImports": "always",
         "source.fixAll": "always"
@@ -33,11 +33,17 @@
     "files.associations": {
         "*.module": "php"
     },
+    "files.autoSave": "off",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
     "extensions.ignoreRecommendations": true,
+    "extensions.autoUpdate": false,
     "breadcrumbs.enabled": false,
     "explorer.compactFolders": false,
     "window.title": "${appName}",
     "window.menuBarVisibility": "toggle",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 20,
     "workbench.tree.renderIndentGuides": "always",
@@ -161,5 +167,6 @@
     "[scss]": {
         "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
     },
-    "update.showReleaseNotes": false
+    "update.showReleaseNotes": false,
+    "workbench.colorTheme": "Sublime Monokai"
 }
