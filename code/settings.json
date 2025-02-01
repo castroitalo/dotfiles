@@ -7,17 +7,16 @@
             "column": 120
         }
     ],
-    "editor.fontFamily": "Source Code Pro",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 1.5,
-    "editor.fontWeight": "500",
+    "editor.fontFamily": "FiraMono Nerd Font Mono",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 2,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "line",
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
-    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.enabled": false,
     "editor.renderLineHighlight": "all",
     "editor.semanticHighlighting.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
@@ -76,7 +75,9 @@
     "workbench.iconTheme": "material-icon-theme",
     "update.showReleaseNotes": false,
     "workbench.colorCustomizations": {
-        "tab.activeModifiedBorder": "#699d6d"
+        "tab.activeModifiedBorder": "#528bff",
+        "editorCursor.background": "#000000",
+        "editorCursor.foreground": "#ffffff"
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -193,5 +194,7 @@
         }
     ],
     "workbench.activityBar.location": "hidden",
-    "workbench.colorTheme": "Default Material Dark Theme"
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.colorTheme": "One Dark Pro Darker"
 }
