@@ -1,5 +1,6 @@
 .uuid
 elpa/
 auto-save-list/
+.idea/
 projectile-bookmarks.eld
 test.org                    
