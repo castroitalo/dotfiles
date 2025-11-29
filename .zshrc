@@ -17,14 +17,17 @@ source $ZSH/oh-my-zsh.sh
 bindkey '^ ' autosuggest-accept
 
 # General aliases
-alias update="sudo apt --fix-broken install && sudo apt clean && sudo apt auto-remove -y &&sudo apt update && sudo apt upgrade -y"
-alias open="nautilus"
+alias update="sudo apt --fix-broken install && sudo apt clean && sudo apt auto-remove -y && sudo apt update && sudo apt upgrade -y"
+alias open="thunar"
 
 # tmux aliases
 alias tnew="tmux new -s"
 alias tls="tmux ls"
 alias tk="tmux kill-session -t"
 alias tatt="tmux attach-session -t"
+
+# Fastfetch aliases
+alias this="fastfetch"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
