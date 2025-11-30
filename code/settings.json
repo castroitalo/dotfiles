@@ -7,14 +7,14 @@
             "column": 120
         }
     ],
-    "editor.fontFamily": "Monaco",
+    "editor.lineHeight": 1.4,
     "editor.fontLigatures": false,
     "editor.cursorStyle": "block",
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
-    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.enabled": false,
     "editor.renderLineHighlight": "all",
     "editor.semanticHighlighting.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
@@ -38,7 +38,9 @@
     "editor.gotoLocation.multipleReferences": "goto",
     "editor.renderControlCharacters": true,
     "editor.snippetSuggestions": "top",
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.icons": false,
+    "breadcrumbs.filePath": "last",
     "search.followSymlinks": false,
     "files.associations": {
         "*.module": "php"
@@ -52,11 +54,11 @@
         "**/node_modules": false
     },
     "extensions.ignoreRecommendations": true,
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": true,
     "explorer.compactFolders": false,
     "explorer.autoReveal": false,
     "explorer.confirmDelete": false,
-    "window.title": "${appName}",
+    "window.title": "ㅤ",
     "window.menuBarVisibility": "toggle",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -66,17 +68,15 @@
     "workbench.tree.enableStickyScroll": false,
     "workbench.sideBar.location": "right",
     "workbench.editor.tabSizing": "fixed",
-    "workbench.editor.showTabs": "multiple",
-    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.showTabs": "none",
+    "workbench.editor.highlightModifiedTabs": false,
     "workbench.editor.pinnedTabSizing": "compact",
     "workbench.statusBar.visible": true,
     "workbench.iconTheme": "material-icon-theme",
     "update.showReleaseNotes": false,
     "workbench.colorCustomizations": {
-        "tab.activeModifiedBorder": "#528bff",
         "editorCursor.background": "#000000",
-        "editorCursor.foreground": "#ffffff",
-        "editor.lineHighlightBackground": "#2f2f2f"
+        "editorCursor.foreground": "#fffb21",
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -195,5 +195,6 @@
     "workbench.activityBar.location": "hidden",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "chat.commandCenter.enabled": false
+    "chat.commandCenter.enabled": false,
+    "workbench.colorTheme": "Tsoding Emacs Gruber Even Darker"
 }
