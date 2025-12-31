@@ -1,6 +1,0 @@
-! Font
-XTerm*faceName: Monaco
-XTerm*faceSize: 11
-
-! Scrolling
-XTerm*saveLines: 5000
