@@ -1,6 +1,6 @@
-# dotfiles
+# Dotfiles
 
-<p>My personal dotfiles</p>
+My personal configuration files
 
-See my full environment configuration [here](https://github.com/gnulll/Development-environment)
+# [Development Environment Guide](https://github.com/castroitalo/dev-environment)
 
